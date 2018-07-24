@@ -8,7 +8,8 @@ from subprocess import Popen
 from time import sleep
 from distutils import spawn
 from tempfile import NamedTemporaryFile
-import json
+import simplejson as json
+#import json
 import re
 import sys
 import platform
